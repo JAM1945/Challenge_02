@@ -10,7 +10,6 @@
     font-family: Helvetica, Arial, sans-serif;
   }
 
-
   header {
 
     padding: 20px 35px;
@@ -61,18 +60,22 @@
 
 /* ABOUT ME START */
 
+.About-Me {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
 .About_Me {
-padding: 20px 35px;
-background-color: #39a6b2;
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-align-items: center;
-list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
 }
 
 .MyPic img {
-    width: 100;
+    width: 200px;
+    height: 200px;
     padding: 3%;
 }
 
@@ -80,14 +83,26 @@ list-style: none;
    margin-bottom: 20px;
 }
 
-.Webpage_Applications{
-    margin: auto;
-    width: 50%;
+.section-title.primary-border {
+    padding: 20px;
+}
+
+.Webpage_Applications {
+    margin-bottom: 60px;   
 }
 
 .First_Applications img {
+    display: block;
+    margin: auto;
     width: 500px;
     height: 300px;
+}
+
+.First-Application-Name {
+    display: block;
+    margin: auto;
+    width: 500px;
+    text-align: center;
 }
 
 .Other-Applications Article {
@@ -117,7 +132,20 @@ list-style: none;
     justify-content: center;
 }
 
-
 .Hosien Search Engine Optimization Webpage {
     width: 30%;
+}
+
+.How_to_Reach_Me {
+    display: block;
+    margin: left;
+    width: 500px;
+    margin: 30px 20px;
+}
+
+.flex-row {
+    display: block;
+    margin: left;
+    width: 500px;
+    margin: 30px 20px;
 }
