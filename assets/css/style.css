@@ -1,0 +1,91 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+  
+  body {
+    color: #0e0e0f;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+
+  header {
+
+    padding: 20px 35px;
+    background-color: #3537b6;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+
+/* ABOUT ME START */
+
+.About_Me {
+padding: 20px 35px;
+background-color: #39a6b2;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+list-style: none;
+}
+
+.MyPic img {
+    width: 100;
+    padding: 3%;
+}
+
+.First_Applications img {
+    width: 40%;
+}
+
+.Other-Applications {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;  
+}
+
+.Hosien Search Engine Optimization Webpage {
+    width: 30%;
+}
