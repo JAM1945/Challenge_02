@@ -76,15 +76,47 @@ list-style: none;
     padding: 3%;
 }
 
+.my_bio_div {
+   margin-bottom: 20px;
+}
+
+.Webpage_Applications{
+    margin: auto;
+    width: 50%;
+}
+
 .First_Applications img {
-    width: 40%;
+    width: 500px;
+    height: 300px;
+}
+
+.Other-Applications Article {
+    padding: 20px;
+}
+
+.Other-Applications img {
+    width: 275px;
+    height: 200px;
+}
+
+.Application-caption{
+    width: 275px;
+}
+
+.Application-Name {
+    text-align: center;
 }
 
 .Other-Applications {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;  
 }
+
+.Other-Applications h3 {
+    justify-content: center;
+}
+
 
 .Hosien Search Engine Optimization Webpage {
     width: 30%;
